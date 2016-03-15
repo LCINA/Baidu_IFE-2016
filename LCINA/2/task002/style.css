@@ -1,0 +1,150 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ddd;
+}
+.nav_bar{
+	height: 70px;
+	background-color: #666;
+}
+.logo{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-image: url(1.gif);
+	background-position: center center;
+    background-repeat: no-repeat;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    margin-top: 5px;
+    float: left;
+    margin-left: 20px;
+}
+
+.nav{
+	float: right;
+	width: 550px;
+	height: 70px;
+	margin-right: 20px;
+}
+.nav .nav_ul{
+	float: right;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+} 
+
+/*实现li标签中字体的垂直居中*/
+.nav .nav_ul li{
+	float: left;
+	margin-left: 20px;
+	height: 70px;
+	line-height: 70px; 
+	display: inline-block;
+}
+
+.nav .nav_ul li a{
+	text-decoration: none;
+	color: #fff;
+	-webkit-transition:all 0.3s linear;
+}
+
+.nav .nav_ul li a:hover{
+	color: #001212;
+	-webkit-transition:all 0.2s linear;
+}
+
+.Article{
+	background-color: #fff;
+	-webkit-box-shadow:0 0 10px #000;  
+  	-moz-box-shadow:0 0 10px #000;  
+  	box-shadow:0 0 10px #000;  
+  	-webkit-transition:all 0.3s linear;
+  	padding: 20px;
+  	margin: 20px;
+  }
+
+  .Article:hover{
+  	-webkit-box-shadow:0 0 10px #0CC;  
+  	-moz-box-shadow:0 0 10px #0CC;  
+  	box-shadow:0 0 10px #0CC;
+  	-webkit-transition:all 0.2s linear;
+  }
+img{
+	width: 100px;
+	height: 100px;
+}
+.img_list{
+	width: 100px;
+	height: 100px;
+}
+.img_list li{
+	text-align: center;
+}
+.table_style{
+	width: 100%;
+}
+.table_style th{
+	background-color: #000;
+	color: #fff;
+}
+.table_style td a{
+	text-decoration: none;
+	color: #000;
+	-webkit-transition:all 0.2s linear;
+}
+.table_style td a:hover{
+	color: #0CC;
+	-webkit-transition:all 0.2s linear;
+}
+.table_style td{
+	text-align: center;
+}
+.table_style .sum{
+	background-color: #ddd;
+}
+.sidebar{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.input_area{
+	width: 280px;
+}
+.input_style{
+	float: right;
+}
+.warn{
+	width: 280px;
+	color: red;
+	font-size: 13px;
+	margin-left: 125px;
+}
+
+.personal_profile{
+	position: relative;
+	width: 100%;
+}
+.personal_label{
+	position: absolute;
+	top:0;
+	/*left: 20px;*/
+}
+.input_profile{
+	margin-left: 80px;
+}
+.btn_submit{
+	background-color: #0CE;
+	color: #fff;
+	font-size: 20px;
+	width: 100%;
+	height: 35px;
+	border: none;
+	border-radius: 5px;
+	-webkit-transition:all 0.2s linear;
+	margin-top: 20px;
+}
+.btn_submit:hover{
+	background-color: #0CC;
+	-webkit-transition:all 0.2s linear;
+}
