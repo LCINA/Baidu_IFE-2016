@@ -108,37 +108,37 @@ img{
 	margin-left: auto;
 	margin-right: auto;
 }
+.form_style{
+	display: block;
+}
 .input_area{
 	width: 280px;
+	display: inline-block;
+	/*实现label与输入框对齐*/
+	vertical-align: text-top; 
+}
+.label_style{
+	display: inline-block;
+	width: 40%;
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 20px;
 }
 .input_style{
 	float: right;
 }
 .warn{
+	display: block;
 	width: 280px;
 	color: red;
 	font-size: 13px;
-	margin-left: 125px;
-}
-
-.personal_profile{
-	position: relative;
-	width: 100%;
-}
-.personal_label{
-	position: absolute;
-	top:0;
-	/*left: 20px;*/
-}
-.input_profile{
-	margin-left: 80px;
 }
 .btn_submit{
 	background-color: #0CE;
 	color: #fff;
 	font-size: 20px;
 	width: 100%;
-	height: 35px;
+	height: 45px;
 	border: none;
 	border-radius: 5px;
 	-webkit-transition:all 0.2s linear;
