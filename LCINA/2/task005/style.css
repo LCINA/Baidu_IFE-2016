@@ -56,26 +56,22 @@ body{
 
 /*主内容样式*/
 .container{
-	width: 100%;
-	position: relative;
 	overflow:auto; 
-	/*防止父div不随子div高度变化*/
 }
 .container_left{
-	width: 76%;
+	width: calc(100% - 480px);
 	float: left;
 }
 .Side_Bar{
-	position: fixed;
+	float: right;
 	width: 380px;
-	margin-left: 76%;
 	background-color: #fff;
 	-webkit-box-shadow:0 0 10px #000;  
   	-moz-box-shadow:0 0 10px #000;  
   	box-shadow:0 0 10px #000;  
   	-webkit-transition:all 0.3s linear;
   	padding: 20px;
-  	margin-top: 20px;
+  	margin: 20px;
 }
 .Side_Bar:hover{
   	-webkit-box-shadow:0 0 10px #0CC;  
@@ -167,7 +163,17 @@ img{
 	margin-right: auto;
 }
 .input_area{
-	width: 75%;
+	width: 240px;
+	display: inline-block;
+	/*实现label与输入框对齐*/
+	vertical-align: text-top; 
+}
+.label_style{
+	display: inline-block;
+	width: 30%;
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 20px;
 }
 .input_style{
 	float: right;
@@ -177,18 +183,6 @@ img{
 	color: red;
 	font-size: 13px;
 	/*margin-left: 125px;*/
-}
-
-.personal_profile{
-	position: relative;
-	width: 100%;
-}
-.personal_label{
-	position: absolute;
-	top:0;
-}
-.input_profile{
-	margin-left: 80px;
 }
 .btn_submit{
 	background-color: #0CE;
